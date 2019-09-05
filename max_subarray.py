@@ -40,7 +40,7 @@ class Solution(object):
 
 if __name__ == '__main__':
     test = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-    test = [-2,-1]
+    # test = [-2,-1]
     # test = [1, 1, -2]
     # test = [-1, -2]
     # test = [-3, -2, 0, -1]
