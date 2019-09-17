@@ -1,2 +1,2 @@
-# leetcode_python
+# leetcode python
 my leetcode in ptyhon language
