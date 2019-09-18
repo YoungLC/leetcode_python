@@ -7,8 +7,15 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
-
+        total_sum = 0
+        max_num = nums[0]
+        for i in range(0, len(nums)):
+            total_sum += nums[i]
+            if total_sum > max_num:
+                max_num = total_sum
+            if total_sum < 0:
+                total_sum = 0
+        return max_num
 
 
 if __name__ == '__main__':
