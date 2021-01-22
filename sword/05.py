@@ -7,7 +7,7 @@ class Solution(object):
         """
         tmp = ""
         for i in range(len(s)):
-            if  s[i].isspace():
+            if s[i].isspace():
                 tmp = tmp + "%20"
             else:
                 tmp = tmp + s[i]

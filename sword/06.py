@@ -5,6 +5,7 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+
 class Solution(object):
     def reversePrint(self, head):
         """
@@ -21,27 +22,25 @@ class Solution(object):
             tmp = tail.next
             tail.next = tmp.next
             tmp.next = head
-            head= tmp
+            head = tmp
 
         return print_list_node(head)
 
+
 def print_list_node(head):
-    a= []
+    a = []
     while head:
         a.append(head.val)
         head = head.next
     return a
 
 
-
 if __name__ == '__main__':
-    a=ListNode(1)
-    b=ListNode(3)
-    c=ListNode(2)
-    a.next=b
-    b.next=c
-    c.next=None
+    a = ListNode(1)
+    b = ListNode(3)
+    c = ListNode(2)
+    a.next = b
+    b.next = c
+    c.next = None
     print print_list_node(a)
     print Solution().reversePrint(a)
-
-
