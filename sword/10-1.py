@@ -21,4 +21,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().fib(45)
+    print Solution().fib(100)
